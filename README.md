@@ -1,14 +1,16 @@
 # Maestro Setup
 
+This repository is a practical guide to organizing AI-assisted work, with diagrams, setup prompts and an operating-rules example. It describes a working practice, not an app to install.
+
 I want more useful work from AI agents, with less of my effort. The useful part is deciding who owns the outcome, what context they need, and how I will check the result.
 
-## Set it up yourself
+You can use the pattern with one assistant, several agents inside one tool, or assistants from different providers. The roles and records matter more than the brands.
 
-Set up the whole frame, start with one real task, then refine in use. The [starter guide](docs/START-HERE.md) walks through roles, required connections, shared context, verification and real work, with copyable prompts and official resources. Adapt the separate [standard operating-rules example](docs/STANDARD-OPERATING-RULES.md) to each assistant's job and boundaries.
+It can also fit a team where each person has an agent: one accountable owner per task, shared project context within the team's access rules, and decisions recorded where the next authorized person or agent can find them.
 
-Use the assistants and workspace tools you already have where they support the required connections and access. You do not need the presentation or a particular team of agents; plan eligibility and connector capabilities vary.
+I use several tools to learn their strengths side by side and avoid relying on a single provider. Shared records make it easier to move work when one is unavailable, but that is not automatic failover. If one tool covers the work and the connections you need, one tool is enough.
 
-## Three names
+## Setup, Brain, Spine
 
 **Setup** is the whole arrangement of me, agents and tools.
 
@@ -18,6 +20,8 @@ Use the assistants and workspace tools you already have where they support the r
 
 ![Diagram titled "Maestro Setup", in three parts. SETUP: three tiles aligned over the steps below them: Accountable agents, Reviewers, and Me (human) (judgment and acceptance). SPINE: five steps left to right: Request, Accountable agent, Delivery, Reviewers + human decision, Recorded result (in the task record). A dashed coral arc labelled "Not yet" loops from the decision back to Delivery. "Accepted" sits over the arrow into Recorded result. BRAIN: a solid green layer across the full width, "Shared context: purpose, constraints, sources". Three arrows labelled "reads" rise from it into Accountable agent, Delivery, and Reviewers + human decision.](images/maestro-readme-light-v7.1.png#gh-light-mode-only)
 ![Diagram titled "Maestro Setup", in three parts. SETUP: three tiles aligned over the steps below them: Accountable agents, Reviewers, and Me (human) (judgment and acceptance). SPINE: five steps left to right: Request, Accountable agent, Delivery, Reviewers + human decision, Recorded result (in the task record). A dashed coral arc labelled "Not yet" loops from the decision back to Delivery. "Accepted" sits over the arrow into Recorded result. BRAIN: a solid green layer across the full width, "Shared context: purpose, constraints, sources". Three arrows labelled "reads" rise from it into Accountable agent, Delivery, and Reviewers + human decision.](images/maestro-readme-dark-v7.1.png#gh-dark-mode-only)
+
+> **In my case:** Dot (ChatGPT) handles projects and portfolio; Muse handles personal work; Claude handles delivery; Grok Bots provide specialist help. Notion holds the Brain, Linear the tasks, and Slack the conversations. The tool names are real; the roles describe how I use them.
 
 ## The Spine
 
@@ -31,6 +35,14 @@ flowchart TD
 ```
 
 > In words: a request names an outcome you can check. It gets one owner with sources, limits and done checks. The owner returns the result, the checks they ran, and any remaining gaps. Review decides: if it isn't there yet, it goes back to delivery; if it's accepted, the result is recorded on the task record.
+
+### One real task: the diagram above
+
+1. **Request:** the task was to make the README setup diagram clear in light and dark modes, without changing the README's words.
+2. **Owner:** the task paired a design owner with a separate reviewer. The checks were readable labels, matching terms and no personal names or logos in the diagram.
+3. **Delivery:** light and dark versions of the diagram.
+4. **Review and decision:** the brief called for checking the drafts and returning corrections together. Accepting the design was separate from approving its publication.
+5. **Recorded result:** the chosen v7.1 diagrams now appear in this README. Their design review and the decision to publish were separate steps.
 
 ## The Brain
 
@@ -55,14 +67,21 @@ This is a setup I use in my own work, not software you can install. Each task's 
 
 In practice, cross-agent handoffs still need checking. Sending a message does not prove another agent picked it up. I now prefer one agent to carry a project through, adding a second reviewer where it helps.
 
+In day-to-day use, I get one consolidated brief with completed work, blockers and decisions that need me. I answer its numbered decisions, and the answers are recorded against the corresponding source items.
+
+## Set it up yourself
+
+Set up the whole frame, start with one real task, then refine in use. The [starter guide](docs/START-HERE.md) walks through roles, required connections, shared context, verification and real work, with copyable prompts and official resources. Adapt the separate [standard operating-rules example](docs/STANDARD-OPERATING-RULES.md) to each assistant's job and boundaries.
+
+Use the assistants and workspace tools you already have where they support the required connections and access. You do not need a particular team of agents; plan eligibility and connector capabilities vary.
+
 ## Related work
 
 [Maestro Spine](https://github.com/ahmadalkabra/maestro-spine) is my earlier project: rules, templates and scripts for AI-assisted work, adapted from Garry Tan's MIT-licensed gstack and gbrain. Maestro Setup doesn't build on its code.
-
-[atlas-dashboard](https://github.com/ahmadalkabra/atlas-dashboard) is an independent analytics dashboard I designed and built for Rootstock bridge activity (May 2026 snapshot).
 
 ## About
 
 Ahmad Alkabra. Licensed under MIT. Copyright (c) 2026 Ahmad Alkabra.
 
 [LinkedIn](https://www.linkedin.com/in/aalkabra) · X: [@ahmadalkabra](https://x.com/ahmadalkabra)
+
