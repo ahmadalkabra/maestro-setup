@@ -36,13 +36,17 @@ flowchart TD
 
 > In words: a request names an outcome you can check. It gets one owner with sources, limits and done checks. The owner returns the result, the checks they ran, and any remaining gaps. Review decides: if it isn't there yet, it goes back to delivery; if it's accepted, the result is recorded on the task record.
 
-### One real task: the diagram above
+### One real workflow: launching the Lunar Wave website
 
-1. **Request:** the task was to make the README setup diagram clear in light and dark modes, without changing the README's words.
-2. **Owner:** the task paired a design owner with a separate reviewer. The checks were readable labels, matching terms and no personal names or logos in the diagram.
-3. **Delivery:** light and dark versions of the diagram.
-4. **Review and decision:** the brief called for checking the drafts and returning corrections together. Accepting the design was separate from approving its publication.
-5. **Recorded result:** the chosen v7.1 diagrams now appear in this README. Their design review and the decision to publish were separate steps.
+1. **Request.** I asked for a website for Lunar Wave, my independent product and AI practice, and set the direction: a company voice, capabilities and real work, and a simple way to get in touch.
+2. **Owner.** One agent was accountable for the outcome and a second built the site. The work had written done checks.
+3. **Delivery.** The site went through private previews, then a public review build marked noindex.
+4. **Review and decision.** The accountable agent checked the final launch package against the reviewed version (no visible change), tested navigation, links and the contact path, and confirmed that mail to the new address was received and could be answered. Agents could prepare everything, but only I could approve the launch. I approved one exact action: attach the domain, set two named web records and publish. Mail settings and nameservers were out of scope.
+5. **Recorded result.** After launch, the accountable agent checked the live site over HTTPS, the redirect, the canonical address, that the live pages were indexable, the sitemap and the contact link, and confirmed that mail and nameservers were untouched. The result is recorded on the task.
+
+**When a tool does not behave as expected.** In another project, one agent found that searches of the shared project records ignored a saved view's filters unless the filters were written into the search itself. It recorded the fix once in the shared task method. A second agent, on a different platform, later read that method and searched correctly. The knowledge moved through the shared records instead of through me.
+
+**When something is not right.** A rollback path was defined before launch. Copy changes reported through agents still had to match my own approval. Sending and replying from the public contact address were tested before launch. Custom email authentication was not part of the launch; it stays open on the task instead of being reported as done.
 
 ## The Brain
 
