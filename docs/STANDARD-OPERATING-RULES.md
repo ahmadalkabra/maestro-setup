@@ -1,6 +1,6 @@
 # Standard operating rules
 
-A generic example to adapt, not installed settings or a grant of access. Fill in the brackets, reconcile it with your existing instructions and use your assistant's supported instruction feature. Keep credentials and private personal details out of the template.
+A generic example to adapt. It installs no settings and grants no access. Fill in the brackets, reconcile it with your existing instructions and add it through your assistant's supported instruction feature, following that feature's review and save process. Keep credentials and private personal details out of it.
 
 ## Define the job and boundaries
 
@@ -53,8 +53,6 @@ must stay within the specific authorization that covers them.
 
 ## Verify the setup, not just the wording
 
-Written rules are not technical controls. Use appropriate permissions and approval gates, verify reads and authorized writes, and check whether handoffs really work. Instructions do not guarantee background monitoring, automatic synchronization or an idle agent waking up.
-
-The template does not change any assistant's settings by itself. Follow its supported review and save process. Keep permission grants and reserved decisions explicit, including any stricter organizational requirements.
+Written rules are not technical controls. Use real permissions and approval gates, verify reads and authorized writes, and check that handoffs work. Instructions don't guarantee background monitoring, automatic sync or an idle agent waking up. Keep permission grants and reserved decisions explicit, including any stricter organizational requirements.
 
 [Back to the starter guide](START-HERE.md) · [Maestro Setup](../README.md)
