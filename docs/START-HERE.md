@@ -109,11 +109,7 @@ Compare the result with the done checks. Routine work can be accepted; decisions
 
 ### 6. Refine from actual use
 
-When a task exposes a gap, fix the record, rules or connection behind it rather than adding another agent or approval step. If the job repeats:
-
-1. Record the miss on the task, linked to the result.
-2. Find what failed (the method, the fact or the source opened) and fix that record with its owner.
-3. On the next comparable run, check the correction is used without a reminder.
+When real work exposes a miss or a better way to do a recurring job, record what happened and what you want to improve. Update the source, instructions, or workflow with its owner. On the next comparable run, check that the change was used without a reminder and that it helped without weakening a safeguard. Until then, the change is made, but its benefit is unverified.
 
 Then test a fresh conversation:
 
@@ -123,7 +119,7 @@ what is out of scope, what did we last decide, and what is the next permitted
 step? Cite what you actually read. Flag anything you could not access.
 ```
 
-It passes if the assistant applies the correction without you repeating it.
+It passes if the assistant finds and applies the current guidance without you repeating it.
 
 ## Let an assistant help you set it up
 
@@ -161,7 +157,8 @@ First real task and done checks: [outcome and how I will judge it]
 5. Run and review the first real task within scope. Return the deliverable,
    evidence, limitations and only decisions that need me. Record the result.
 6. Test reuse in a fresh conversation and fix the most useful gap.
-   Keep refining the same records and rules from actual work.
+   Use the next comparable run to check whether the improvement was used
+   and helped. Keep existing approvals and access limits.
 
 Full setup does not authorize unrestricted access or extra purchases.
 Do not import private memory or chat history, share data with new audiences,
