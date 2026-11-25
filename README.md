@@ -56,16 +56,17 @@ One current home for each fact; everything else links to it. Keep passwords, key
 
 ## What repeat work needs
 
-A factory is a shared workflow for a repeated job. Agents run it from approved sources and routine runs finish on their own; people own the rules and handle the exceptions. Start where the output is easy to check.
+A factory is a workflow for one job you do again and again. Agents handle routine work using approved sources. A person owns the rules and makes the decisions that need judgment.
+
+- **Plan.** Pick one recurring job. Name the owner, which sources to use, what good looks like, and when a person needs to step in.
+- **Run.** Let agents handle routine steps. Check the result and keep the approvals that matter.
+- **Improve.** Put a useful change into the source, checklist, or workflow the next run will use. Check the next comparable result before saying it helped.
 
 ```mermaid
 flowchart TD
-    A["Agents run the job<br/>from approved sources"] --> B{"Routine?"}
-    B -- "Yes" --> C["Run finishes"]
-    B -- "Exception" --> D["Owner decides"]
-    C -. "Miss" .-> E["Fix the source<br/>or the workflow"]
-    D -. "Miss" .-> E
-    E -.-> F["Next run:<br/>correction used?"]
+    P["Plan"] --> R["Run"]
+    R --> I["Improve"]
+    I -->|Check on the next comparable run| P
 ```
 
 **Example: deck review.** In my work, a deliberate human check: the writer checks the export, then a fresh reader follows it without speaker notes. A recurring problem gets fixed in the checklist or template, then checked on the next deck.
